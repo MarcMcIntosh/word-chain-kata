@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsverify": "^0.8.4",
     "mocha": "^5.2.0"
   }
 }
