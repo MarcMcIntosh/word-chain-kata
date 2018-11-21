@@ -4,6 +4,7 @@ const DICT_1 = require('../dictonary/dict1');
 
 describe('Generating a hashMap from word list', () => {
   const hashMap = hashMapfromDict(DICT_1);
+
   it('Checking enties are in map, and each has an array', () => {
     DICT_1.forEach(word => {
       assert.ok(hashMap.has(word), '[NOT FOUND] Key: ' + word + ' ');
